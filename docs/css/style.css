@@ -472,7 +472,9 @@ pre {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
-  margin-left: -15px; }
+  margin-left: -15px; 
+  margin-bottom: 50px
+}
 
 .no-gutters {
   margin-right: 0;
@@ -6498,7 +6500,7 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important; }
+  margin-bottom: 7.5rem !important; }
 
 .ml-4,
 .mx-4 {
@@ -9243,7 +9245,7 @@ textarea.form-control {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -20px;
+  bottom: 100px;
   z-index: 2; }
 
 .mouse-icon {
