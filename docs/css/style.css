@@ -9012,7 +9012,7 @@ h1, h2, h3, h4, h5,
   z-index: 0; }
   .ftco-fullwidth .overlay {
     position: absolute;
-    width: 73%;
+    width: 100%;
     top: 0;
     right: 0;
     bottom: 0;
@@ -9114,7 +9114,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 6em 0;
+  padding: 1em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9131,7 +9131,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  padding: 7em 0;
+  padding: 0.5em 0;
   background: #fb5658;
   color: rgba(255, 255, 255, 0.9); }
   .ftco-footer .ftco-footer-logo {
