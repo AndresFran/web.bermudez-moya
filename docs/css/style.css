@@ -473,7 +473,24 @@ pre {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px; 
-  margin-bottom: 50px
+  margin-bottom: 50px;
+  align-items: baseline;
+  
+}
+
+.row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; 
+  margin-bottom: 50px;
+  align-items: baseline;
+  border: 2px solid #000000;
+  background-color: #cc000027;
+  
 }
 
 .no-gutters {
@@ -8587,7 +8604,7 @@ h1, h2, h3, h4, h5,
     height: inherit !important;
     font-size: 16px;
     border: 1px solid rgba(0, 0, 0, 0.05);
-    color: rgba(0, 0, 0, 0.4) !important;
+    color: hsla(0, 0%, 0%, 0.63)6)6)6) !important;
     background: transparent !important;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -9091,7 +9108,8 @@ textarea.form-control {
 
 .ftco-animate {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden; 
+}
 
 .bg-primary {
   background: #fb5658 !important; }
