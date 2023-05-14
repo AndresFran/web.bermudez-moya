@@ -2528,20 +2528,3 @@ textarea.form-control {
   }
 }
 
-.img-video{
-	display: block;
-	width: 70px;
-	height: 70px;
-	border-radius: 50%;
-	background: rgba(255,255,255,.8);
-	animation: pulse 2s infinite;
-
-	position: absolute;
-	bottom: 20px;
-	left: 20px;
-	span{
-		color: $primary;
-		font-size: 20px;
-	}
-}
-
